@@ -1,0 +1,12 @@
+USE practice;
+SELECT * FROM student;
+SELECT * FROM student WHERE city ='Rampur';
+SELECT age , name FROM student;
+SELECT * FROM student ORDER BY marks ASC;
+SELECT * FROM student ORDER BY age DESC;
+SELECT * FROM student WHERE age=19;
+SELECT * FROM student WHERE  age = 20;
+SELECT * FROM student WHERE age IS NULL;
+SELECT * FROM student ORDER BY name ASC;
+SELECT * FROM student ORDER BY id DESC;
+SELECT * FROM student ORDER BY id ASC;
